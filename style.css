@@ -27,6 +27,20 @@
 header div a:hover {
     color:blueviolet;
     transition: color 700ms;
+    line-height: 30px;
+    margin: 0 16px;
+    text-decoration: none;
+    font-family: 'Oswald';
+}
+
+#box {
+   text-align: center;
+   padding: 32px;
+}
+#box img {
+    border-radius: 50%;
+    border: 5px solid;
+    margin-bottom: 32px;
 }
 
 
