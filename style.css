@@ -5,13 +5,14 @@
     border:0;
 }  
   body {
-    background-color: black;
+    background-color: rgb(85, 2, 2);
   
 }
    header {
     padding: 32px;
-    border-bottom: 1px solid var(--subcor);
-    background-color: rgb(133, 15, 15);
+    border-bottom: 3px solid var(--subcor);
+    background-color: rgb(63, 11, 11);
+    text-align: center;
    }
    h.links {
     text-align: center;
@@ -25,22 +26,25 @@
     font-family: 'Oswald';
    }
 .links a:hover {
-    color: color var(--subcor);
+    color: color var(--cor);
     transition: color 700ms;
     line-height: 30px;
     margin: 0 16px;
-    text-decoration: none;
+    text-decoration: underline;
     font-family: 'Oswald';
 }
 
 #box {
    text-align: center;
    padding: 32px;
+   font-family: "Oswald";
+   text-decoration: none;
 }
 #box img {
     border-radius: 50%;
     border: 5px solid;
     margin-bottom: 32px;
+    font-size: 35px;
 }
 #box h1{
     font-size: 34px;
@@ -53,9 +57,18 @@
     font-weight: normal;
     margin-top: 8px;
     opacity: 0.8;
-    max-width: 500px;
+    max-width: 450px;
     margin: 32px auto;
 }
 :root{
- --subcor: #27073c;    
+ --subcor: #27073c;
+ --cor: color #29024d;
 }
+ #linksFooter {
+    padding-top: 32px;
+ }
+ #linksFooter a {
+    padding-top: 32px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid var(--cor);
+ }
